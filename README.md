@@ -59,7 +59,7 @@ These values are typically set based on the specific requirements of your machin
 To run the anomaly detection, use the following command:
 
 ```bash
-python detect_anomalies.py
+python main.py
 ```
 
 ## Demo Data
