@@ -1,4 +1,4 @@
-# Real Time Anomaly Detection with pyTorch Autoencoder
+# Real Time Anomaly Detection with a pyTorch Autoencoder
 
 ## Project Overview
 
@@ -15,7 +15,7 @@ This project focuses on real-time anomaly detection using a pyTorch-based autoen
 To get started, clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/yourusername/real_time_anomaly_detection.git
+git clone https://github.com/daniel-crawford/real_time_anomaly_detection.git
 cd real_time_anomaly_detection
 pip install -r requirements.txt
 ```
@@ -23,10 +23,10 @@ pip install -r requirements.txt
 ## Config
 
 "train_data": This specifies the path to the training dataset. In this case, it points to a Parquet file containing data for training the model.
-Demo: NYC TLC OCT-23 (yellow_tripdata_2023-10) [https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page]
+Demo: [NYC TLC OCT-23](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) (yellow_tripdata_2023-10) 
 
 "test_data": This specifies the path to the testing dataset. It points to a Parquet file containing data for testing the model.
-Demo: NYC TLC NOV-23 (yellow_tripdata_2023-11) [https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page]
+Demo: NYC TLC NOV-23 [yellow_tripdata_2023-11](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 
 "anomaly_threshold": This value is used to determine the threshold for classifying data points as anomalies. A lower value means stricter anomaly detection.
 Demo: Common default values range from 0.01 to 0.05, but it depends on the 
