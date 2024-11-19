@@ -1,0 +1,12 @@
+{
+    "train_data": "demo_data/yellow_tripdata_2023-10.parquet",
+    "test_data": "demo_data/yellow_tripdata_2023-11.parquet",
+    "anomaly_threshold": 0.01,
+    "features": ["fare_amount", "trip_distance", "passenger_count"],
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "loss_function": "mean_squared_error",
+    "optimizer": "adam",
+    "num_epochs": 10,
+    "max_test_batches": 10
+}
